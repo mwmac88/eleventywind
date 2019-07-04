@@ -1,0 +1,31 @@
+{
+  "name": "eleventywind",
+  "version": "1.0.0",
+  "description": "EleventyWind",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwmac88/eleventywind/issues"
+  },
+  "homepage": "https://github.com/mwmac88/eleventywind#readme",
+  "scripts": {
+    "11ty:dev": "npx eleventy --serve --watch",
+    "11ty:production": "npx eleventy",
+    "parcel:dev": "npx parcel serve eleventy/index.html --out-dir dist",
+    "parcel:production": "npx parcel build eleventy/index.html --out-dir dist",
+    "dev": "run-p *:dev",
+    "build": "run-s *:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwmac88/eleventywind.git"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.8.3",
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.3",
+    "tailwindcss": "^1.0.4"
+  }
+}
