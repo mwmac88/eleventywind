@@ -10,12 +10,15 @@
   },
   "homepage": "https://github.com/mwmac88/eleventywind#readme",
   "scripts": {
-    "11ty:dev": "npx eleventy --serve --watch",
-    "11ty:production": "npx eleventy",
+    "clean": "run-p *:clean",
+    "11ty:clean": "rm -rf eleventy",
+    "dist:clean": "rm -rf dist",
+    "11ty:dev": "npx eleventy --quiet --watch",
+    "11ty:production": "npx eleventy --quiet",
     "parcel:dev": "npx parcel serve eleventy/index.html --out-dir dist",
     "parcel:production": "npx parcel build eleventy/index.html --out-dir dist",
-    "dev": "run-p *:dev",
-    "build": "run-s *:production"
+    "dev": "npm-run-all -l clean 11ty:production --parallel 11ty:dev parcel:dev",
+    "build": "run-s -l clean *:production"
   },
   "repository": {
     "type": "git",
