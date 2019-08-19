@@ -13,3 +13,7 @@ Boilerplate template to build epic modern sites utilising the following stack:
 **Utility First CSS Framework**
 
 [Tailwind CSS](https://tailwindcss.com)
+
+**Web Application Bundler**
+
+[Parcel](https://parceljs.org)
