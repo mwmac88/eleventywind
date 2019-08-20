@@ -2,26 +2,23 @@
 
 11ty Static Site Gen with tailwindcss & parcel
 
+## Features
+
+
+
 ## What?
 
 Boilerplate template to build epic modern JAMstack sites utilising the following stack:
 
-**Static Site Generator**
+* [11ty](https://www.11ty.io) - Static Site Generator
 
-[11ty](https://www.11ty.io)
+* [Tailwind CSS](https://tailwindcss.com) - Utility First CSS Framework
 
-**Utility First CSS Framework**
-
-[Tailwind CSS](https://tailwindcss.com)
-
-**Web Application Bundler**
-
-[Parcel](https://parceljs.org)
+* [Parcel](https://parceljs.org) - Web Application Bundler
 
 ## How?
 
-**Pre-
-requisites**
+**Prerequisites**
 
 ```
 Node ^V8.0.0
