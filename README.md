@@ -1,6 +1,6 @@
 # eleventywind
 
-11ty Static Site Gen with tailwindcss & parcel
+11ty static site generator template with tailwindcss & parcel
 
 ## What?
 
