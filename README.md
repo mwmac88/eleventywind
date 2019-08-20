@@ -2,10 +2,6 @@
 
 11ty Static Site Gen with tailwindcss & parcel
 
-## Features
-
-
-
 ## What?
 
 Boilerplate template to build epic modern JAMstack sites utilising the following stack:
@@ -16,6 +12,13 @@ Boilerplate template to build epic modern JAMstack sites utilising the following
 
 * [Parcel](https://parceljs.org) - Web Application Bundler
 
+## Why?
+
+* Blazing fast compiles with 'all-the-things' pre-configured with the latest and greatest transform wizardy without the config
+* Simple static site generation, fully pre-rendered for maximum performance with serverless architecture in mind
+* Rapid, responsive, unopinionated styling making use of logical utility classes on a component-friendly basis
+* Effortless HTML templating with all the expected utilities avialable (Inheritance, variables, expressions, partials etc.)
+
 ## How?
 
 **Prerequisites**
@@ -24,3 +27,23 @@ Boilerplate template to build epic modern JAMstack sites utilising the following
 Node ^V8.0.0
 Yarn >=V1.7
 ```
+
+**Install**
+
+```
+yarn install
+```
+
+**Build**
+
+```
+#DEV
+yarn dev
+
+OR
+
+#PRODUCTION
+yarn production
+```
+
+## Example
