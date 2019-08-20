@@ -47,3 +47,4 @@ yarn production
 ```
 
 ## Example
+[soda](https://github.com/mwmac88/soda) - Fictional agencies landing page built with 6 customised components
